@@ -1,0 +1,46 @@
+# -----------------------------------------------------------------------------
+# Vehicle Detection Project Configuration
+# -----------------------------------------------------------------------------
+
+# General Settings
+project_name: "Vehicle Detection System"
+location: "Freeway_A1" # A user-defined identifier for the camera location
+
+# YOLOv9 Model Configuration
+confidence_threshold: 0.45
+iou_threshold: 0.50
+
+# --- Class IDs and Names (based on COCO dataset) ---
+target_classes:
+  - 2 # car
+  - 3 # motorcycle
+  - 5 # bus
+  - 7 # truck
+
+# Number Plate Recognition (EasyOCR)
+ocr_languages: ["en"]
+plate_confidence_threshold: 0.50 # Minimum confidence for an OCR result
+
+# --- Plate Detection Parameters (for contour-based search) ---
+plate_min_aspect_ratio: 2.0
+plate_max_aspect_ratio: 5.0
+plate_min_area: 400
+
+# --- NEW: Visual Debugging for Plate Recognition ---
+# Set to true to open windows showing the plate detection steps.
+# This will pause the video feed for each vehicle. Press any key to continue.
+debug_plate_recognition: false
+
+# Data Logging Configuration
+output_directory: "output"
+log_header:
+  - "timestamp"
+  - "location"
+  - "class_name"
+  - "confidence_score"
+  - "vehicle_color"
+  - "license_plate"
+  - "plate_confidence"
+
+# Video Source Configuration
+default_video_source: 0

@@ -1,0 +1,19 @@
+#Python Dependencies for the Vehicle Detection Project
+#Core AI and Computer Vision Libraries
+ultralytics==8.1.38
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+torchaudio==2.3.1+cu118
+opencv-python
+easyocr
+
+#Data Handling and Utility Libraries
+numpy
+pandas
+PyYAML
+Pillow
+matplotlib
+imutils
+geocoder 
+#GUI Library (usually included with Python)
+tk
