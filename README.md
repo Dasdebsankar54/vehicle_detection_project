@@ -172,3 +172,8 @@ NOTE: Under the "models" folder, download the the existing yolo models from the 
 - YOLOv9 by WongKinYiu
 - EasyOCR for optical character recognition
 - PyTorch team for the deep learning framework
+
+
+
+
+NOTE: Under the "models" folder, download the the existing yolo models from the website.
