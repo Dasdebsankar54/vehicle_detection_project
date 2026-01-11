@@ -163,6 +163,10 @@ All detection logs are saved to `output/logs.csv` with the following information
 
 [Add contribution guidelines here]
 
+
+
+NOTE: Under the "models" folder, download the the existing yolo models from the website.
+
 ## Acknowledgments
 
 - YOLOv9 by WongKinYiu
